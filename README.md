@@ -1,4 +1,4 @@
-<# Customer Support App
+# Customer Support App
 
 ## Project Description
 
@@ -45,16 +45,32 @@ npx expo start --web
 
 ## Required Environment Variables
 
-- `EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME`
-- `EXPO_PUBLIC_CLOUDINARY_UPLOAD_PRESET`
-- `EXPO_PUBLIC_EMAILJS_SERVICE_ID`
-- `EXPO_PUBLIC_EMAILJS_TEMPLATE_ID`
-- `EXPO_PUBLIC_EMAILJS_PUBLIC_KEY`
+Configure the following variables in your `.env` file:
+
+```env
+EXPO_PUBLIC_CLOUDINARY_CLOUD_NAME=
+EXPO_PUBLIC_CLOUDINARY_UPLOAD_PRESET=
+EXPO_PUBLIC_EMAILJS_SERVICE_ID=
+EXPO_PUBLIC_EMAILJS_TEMPLATE_ID=
+EXPO_PUBLIC_EMAILJS_PUBLIC_KEY=
+```
 
 ## Security Notice
 
 Do not upload the actual `.env` file or expose credentials in the GitHub repository or demonstration video.
 
+Make sure `.env` is included in `.gitignore`.
+
 ## GitHub Repository
 
 [CustomerSupportApp](https://github.com/nadzmersahipa-ctrl/CustomerSupportApp)
+
+## Partner Contribution
+
+**Kish Damienne Faustino**
+
+Contribution: Project documentation and application development.
+
+**Sahipa, Nadzmer D.**
+
+Contribution: Application development, system integration, Cloudinary and EmailJS configuration, testing, and video demonstration.
